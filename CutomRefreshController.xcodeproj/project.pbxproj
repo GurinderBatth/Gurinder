@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FBEA1241DB3C0F000D74D5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBEA1231DB3C0F000D74D5F /* main.m */; };
+		2FBEA1271DB3C0F000D74D5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBEA1261DB3C0F000D74D5F /* AppDelegate.m */; };
+		2FBEA12A1DB3C0F000D74D5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBEA1291DB3C0F000D74D5F /* ViewController.m */; };
+		2FBEA12D1DB3C0F000D74D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBEA12B1DB3C0F000D74D5F /* Main.storyboard */; };
+		2FBEA12F1DB3C0F000D74D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBEA12E1DB3C0F000D74D5F /* Assets.xcassets */; };
+		2FBEA1321DB3C0F000D74D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBEA1301DB3C0F000D74D5F /* LaunchScreen.storyboard */; };
+		2FBEA13D1DB3C0F100D74D5F /* CutomRefreshControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBEA13C1DB3C0F100D74D5F /* CutomRefreshControllerTests.m */; };
+		2FBEA1481DB3C0F100D74D5F /* CutomRefreshControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBEA1471DB3C0F100D74D5F /* CutomRefreshControllerUITests.m */; };
+		2FBEA1561DB3D40900D74D5F /* RefreshContents.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBEA1551DB3D40900D74D5F /* RefreshContents.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FBEA1391DB3C0F100D74D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBEA1171DB3C0F000D74D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBEA11E1DB3C0F000D74D5F;
+			remoteInfo = CutomRefreshController;
+		};
+		2FBEA1441DB3C0F100D74D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FBEA1171DB3C0F000D74D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FBEA11E1DB3C0F000D74D5F;
+			remoteInfo = CutomRefreshController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FBEA11F1DB3C0F000D74D5F /* CutomRefreshController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutomRefreshController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBEA1231DB3C0F000D74D5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FBEA1251DB3C0F000D74D5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FBEA1261DB3C0F000D74D5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FBEA1281DB3C0F000D74D5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FBEA1291DB3C0F000D74D5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FBEA12C1DB3C0F000D74D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FBEA12E1DB3C0F000D74D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FBEA1311DB3C0F000D74D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FBEA1331DB3C0F000D74D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBEA1381DB3C0F100D74D5F /* CutomRefreshControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CutomRefreshControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBEA13C1DB3C0F100D74D5F /* CutomRefreshControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CutomRefreshControllerTests.m; sourceTree = "<group>"; };
+		2FBEA13E1DB3C0F100D74D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBEA1431DB3C0F100D74D5F /* CutomRefreshControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CutomRefreshControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBEA1471DB3C0F100D74D5F /* CutomRefreshControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CutomRefreshControllerUITests.m; sourceTree = "<group>"; };
+		2FBEA1491DB3C0F100D74D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBEA1551DB3D40900D74D5F /* RefreshContents.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RefreshContents.xib; path = ../RefreshContents.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBEA11C1DB3C0F000D74D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBEA1351DB3C0F100D74D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBEA1401DB3C0F100D74D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FBEA1161DB3C0F000D74D5F = {
+			isa = PBXGroup;
+			children = (
+				2FBEA1211DB3C0F000D74D5F /* CutomRefreshController */,
+				2FBEA13B1DB3C0F100D74D5F /* CutomRefreshControllerTests */,
+				2FBEA1461DB3C0F100D74D5F /* CutomRefreshControllerUITests */,
+				2FBEA1201DB3C0F000D74D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FBEA1201DB3C0F000D74D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBEA11F1DB3C0F000D74D5F /* CutomRefreshController.app */,
+				2FBEA1381DB3C0F100D74D5F /* CutomRefreshControllerTests.xctest */,
+				2FBEA1431DB3C0F100D74D5F /* CutomRefreshControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FBEA1211DB3C0F000D74D5F /* CutomRefreshController */ = {
+			isa = PBXGroup;
+			children = (
+				2FBEA1251DB3C0F000D74D5F /* AppDelegate.h */,
+				2FBEA1261DB3C0F000D74D5F /* AppDelegate.m */,
+				2FBEA1281DB3C0F000D74D5F /* ViewController.h */,
+				2FBEA1291DB3C0F000D74D5F /* ViewController.m */,
+				2FBEA1551DB3D40900D74D5F /* RefreshContents.xib */,
+				2FBEA12B1DB3C0F000D74D5F /* Main.storyboard */,
+				2FBEA12E1DB3C0F000D74D5F /* Assets.xcassets */,
+				2FBEA1301DB3C0F000D74D5F /* LaunchScreen.storyboard */,
+				2FBEA1331DB3C0F000D74D5F /* Info.plist */,
+				2FBEA1221DB3C0F000D74D5F /* Supporting Files */,
+			);
+			path = CutomRefreshController;
+			sourceTree = "<group>";
+		};
+		2FBEA1221DB3C0F000D74D5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FBEA1231DB3C0F000D74D5F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FBEA13B1DB3C0F100D74D5F /* CutomRefreshControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBEA13C1DB3C0F100D74D5F /* CutomRefreshControllerTests.m */,
+				2FBEA13E1DB3C0F100D74D5F /* Info.plist */,
+			);
+			path = CutomRefreshControllerTests;
+			sourceTree = "<group>";
+		};
+		2FBEA1461DB3C0F100D74D5F /* CutomRefreshControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FBEA1471DB3C0F100D74D5F /* CutomRefreshControllerUITests.m */,
+				2FBEA1491DB3C0F100D74D5F /* Info.plist */,
+			);
+			path = CutomRefreshControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FBEA11E1DB3C0F000D74D5F /* CutomRefreshController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBEA14C1DB3C0F100D74D5F /* Build configuration list for PBXNativeTarget "CutomRefreshController" */;
+			buildPhases = (
+				2FBEA11B1DB3C0F000D74D5F /* Sources */,
+				2FBEA11C1DB3C0F000D74D5F /* Frameworks */,
+				2FBEA11D1DB3C0F000D74D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CutomRefreshController;
+			productName = CutomRefreshController;
+			productReference = 2FBEA11F1DB3C0F000D74D5F /* CutomRefreshController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FBEA1371DB3C0F100D74D5F /* CutomRefreshControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBEA14F1DB3C0F100D74D5F /* Build configuration list for PBXNativeTarget "CutomRefreshControllerTests" */;
+			buildPhases = (
+				2FBEA1341DB3C0F100D74D5F /* Sources */,
+				2FBEA1351DB3C0F100D74D5F /* Frameworks */,
+				2FBEA1361DB3C0F100D74D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBEA13A1DB3C0F100D74D5F /* PBXTargetDependency */,
+			);
+			name = CutomRefreshControllerTests;
+			productName = CutomRefreshControllerTests;
+			productReference = 2FBEA1381DB3C0F100D74D5F /* CutomRefreshControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FBEA1421DB3C0F100D74D5F /* CutomRefreshControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBEA1521DB3C0F100D74D5F /* Build configuration list for PBXNativeTarget "CutomRefreshControllerUITests" */;
+			buildPhases = (
+				2FBEA13F1DB3C0F100D74D5F /* Sources */,
+				2FBEA1401DB3C0F100D74D5F /* Frameworks */,
+				2FBEA1411DB3C0F100D74D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FBEA1451DB3C0F100D74D5F /* PBXTargetDependency */,
+			);
+			name = CutomRefreshControllerUITests;
+			productName = CutomRefreshControllerUITests;
+			productReference = 2FBEA1431DB3C0F100D74D5F /* CutomRefreshControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FBEA1171DB3C0F000D74D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Gurinder Batth";
+				TargetAttributes = {
+					2FBEA11E1DB3C0F000D74D5F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					2FBEA1371DB3C0F100D74D5F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FBEA11E1DB3C0F000D74D5F;
+					};
+					2FBEA1421DB3C0F100D74D5F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FBEA11E1DB3C0F000D74D5F;
+					};
+				};
+			};
+			buildConfigurationList = 2FBEA11A1DB3C0F000D74D5F /* Build configuration list for PBXProject "CutomRefreshController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FBEA1161DB3C0F000D74D5F;
+			productRefGroup = 2FBEA1201DB3C0F000D74D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBEA11E1DB3C0F000D74D5F /* CutomRefreshController */,
+				2FBEA1371DB3C0F100D74D5F /* CutomRefreshControllerTests */,
+				2FBEA1421DB3C0F100D74D5F /* CutomRefreshControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBEA11D1DB3C0F000D74D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBEA1321DB3C0F000D74D5F /* LaunchScreen.storyboard in Resources */,
+				2FBEA1561DB3D40900D74D5F /* RefreshContents.xib in Resources */,
+				2FBEA12F1DB3C0F000D74D5F /* Assets.xcassets in Resources */,
+				2FBEA12D1DB3C0F000D74D5F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBEA1361DB3C0F100D74D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBEA1411DB3C0F100D74D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBEA11B1DB3C0F000D74D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBEA12A1DB3C0F000D74D5F /* ViewController.m in Sources */,
+				2FBEA1271DB3C0F000D74D5F /* AppDelegate.m in Sources */,
+				2FBEA1241DB3C0F000D74D5F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBEA1341DB3C0F100D74D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBEA13D1DB3C0F100D74D5F /* CutomRefreshControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FBEA13F1DB3C0F100D74D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBEA1481DB3C0F100D74D5F /* CutomRefreshControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FBEA13A1DB3C0F100D74D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBEA11E1DB3C0F000D74D5F /* CutomRefreshController */;
+			targetProxy = 2FBEA1391DB3C0F100D74D5F /* PBXContainerItemProxy */;
+		};
+		2FBEA1451DB3C0F100D74D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FBEA11E1DB3C0F000D74D5F /* CutomRefreshController */;
+			targetProxy = 2FBEA1441DB3C0F100D74D5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FBEA12B1DB3C0F000D74D5F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBEA12C1DB3C0F000D74D5F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FBEA1301DB3C0F000D74D5F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBEA1311DB3C0F000D74D5F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FBEA14A1DB3C0F100D74D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FBEA14B1DB3C0F100D74D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FBEA14D1DB3C0F100D74D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CutomRefreshController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Batth.CutomRefreshController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FBEA14E1DB3C0F100D74D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CutomRefreshController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Batth.CutomRefreshController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FBEA1501DB3C0F100D74D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CutomRefreshControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Batth.CutomRefreshControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutomRefreshController.app/CutomRefreshController";
+			};
+			name = Debug;
+		};
+		2FBEA1511DB3C0F100D74D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CutomRefreshControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Batth.CutomRefreshControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutomRefreshController.app/CutomRefreshController";
+			};
+			name = Release;
+		};
+		2FBEA1531DB3C0F100D74D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CutomRefreshControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Batth.CutomRefreshControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CutomRefreshController;
+			};
+			name = Debug;
+		};
+		2FBEA1541DB3C0F100D74D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CutomRefreshControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Batth.CutomRefreshControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CutomRefreshController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBEA11A1DB3C0F000D74D5F /* Build configuration list for PBXProject "CutomRefreshController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBEA14A1DB3C0F100D74D5F /* Debug */,
+				2FBEA14B1DB3C0F100D74D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBEA14C1DB3C0F100D74D5F /* Build configuration list for PBXNativeTarget "CutomRefreshController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBEA14D1DB3C0F100D74D5F /* Debug */,
+				2FBEA14E1DB3C0F100D74D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBEA14F1DB3C0F100D74D5F /* Build configuration list for PBXNativeTarget "CutomRefreshControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBEA1501DB3C0F100D74D5F /* Debug */,
+				2FBEA1511DB3C0F100D74D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBEA1521DB3C0F100D74D5F /* Build configuration list for PBXNativeTarget "CutomRefreshControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBEA1531DB3C0F100D74D5F /* Debug */,
+				2FBEA1541DB3C0F100D74D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FBEA1171DB3C0F000D74D5F /* Project object */;
+}
